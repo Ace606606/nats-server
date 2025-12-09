@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/check_cpp.dir/check_cpp.cpp.o -o ../../../bin/check_cpp  ../../../lib/libnats_static.a -lrt /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

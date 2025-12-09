@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG CMakeFiles/testsuite.dir/test.c.o CMakeFiles/testsuite.dir/bench_sub_async.c.o -o ../../bin/testsuite  ../../lib/libnats_static.a -lrt /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
