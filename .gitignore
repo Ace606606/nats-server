@@ -1,3 +1,18 @@
+# --- C++ ---
+cpp_client/build*/
+cpp_client/cmake-build-*/
+
+# --- Python ---
+pyhton_client/.venv/
+pyhton_client/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+server/nats-data
+
+.swp
+
 # Prerequisites
 *.d
 

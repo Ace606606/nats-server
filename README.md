@@ -32,3 +32,16 @@ pip install nats-py
 
 # RUN
 ./nats-server -c server.conf
+
+# LIBS
+./config --prefix=$HOME/.local --openssldir=$HOME/.local/openssl \
+         no-tests shared zlib
+make -j$(nproc)
+make install
+
+mkdir build && cd build
+cmake .. \
+  -DOPENSSL_ROOT_DIR=$HOME/.local \
+  -DOPENSSL_CRYPTO_LIBRARY=$HOME/.local/lib/libcrypto.so \
+  -DOPENSSL_SSL_LIBRARY=$HOME/.local/lib/libssl.so \
+  -DOPENSSL_INCLUDE_DIR=$HOME/.local/include

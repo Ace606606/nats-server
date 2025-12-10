@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gryakin/workdir/my/git/nats/cpp_client/cmake-3.15.2/Tests/FindPackageModeMakefileTest/foo.cpp
+foo.h
+/home/gryakin/workdir/my/git/nats/cpp_client/cmake-3.15.2/Tests/FindPackageModeMakefileTest/foo.h
+
+/home/gryakin/workdir/my/git/nats/cpp_client/cmake-3.15.2/Tests/FindPackageModeMakefileTest/foo.h
+
