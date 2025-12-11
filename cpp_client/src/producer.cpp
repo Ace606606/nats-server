@@ -25,33 +25,80 @@ check_status(natsStatus status, const char* msg)
     }
 }
 
-int
-main() {
-    const char* url = "nats://@localhost:4222";
-    natsStatus status;
-    natsOptions* opts = NULL;
-    natsConnection* nc = NULL;
-    jsCtx* js = NULL;
 
+
+int 
+main()
+{
+    const char* url = "nats://@localhost:4222";
+
+    natsStatus status;
+    jsErrCode jerr;
+    natsOptions* opts = nullptr;
+    natsConnection* nc = nullptr;
+    jsCtx* js = nullptr;
+
+    // 1. базовые опции
     natsOptions_Create(&opts);
     natsOptions_SetURL(opts, url);
     natsOptions_SetUserInfo(opts, "service_a", "password_a");
 
+    // 2. соединение и JetStream
     status = natsConnection_Connect(&nc, opts);
-    check_status(status, "Connect to server");
-    std::cout << "Connect to " << url << " success." << std::endl;
-    
-    status = natsConnection_JetStream(&js, nc, NULL);
-    check_status(status, "Init JetStream");
-    std::cout << "JetStream init success." << std::endl;
+    check_status(status, "Connect");
+    status = natsConnection_JetStream(&js, nc, nullptr);
+    check_status(status, "JetStream");
 
-    // publish
-    status = natsConnection_PublishString(nc, "update.test", "test_payload");
-    std::cout << "Status = " << natsStatus_GetText(status) << std::endl;
-    // destroy
+    // 3. конфиг stream
+    jsStreamConfig cfg;
+    jsStreamConfig_Init(&cfg);
+    cfg.Name        = "EVENTS";
+    const char* subs[] = {"event.*", "test.*"};
+    cfg.Subjects    = subs;
+    cfg.SubjectsLen = 2;
+    cfg.Storage     = js_FileStorage;
+    cfg.MaxAge      = 24*3600*1'000'000'000LL;
+
+    // 4. создаём stream
+    jsStreamInfo* info = nullptr;
+    status = js_AddStream(&info, js, &cfg, nullptr, &jerr);
+    if (status == NATS_OK)
+        std::cout << "stream ok\n";
+
+    if (status != NATS_OK && jerr == 10058)
+    {
+        printf("стрим уже с другой конфигурацией – пропускаем\n");
+        status = NATS_OK;   // считаем не ошибкой
+    }
+    if (status == NATS_OK && info) {
+    std::cout << "stream subjects:\n";
+    for (int i = 0; i < info->Config->SubjectsLen; ++i)
+        std::cout << "  - " << info->Config->Subjects[i] << '\n';
+    }
+
+    jsStreamInfo_Destroy(info);
+
+    natsMsg *m = nullptr;
+    natsMsg_Create(&m , "event.subject", nullptr,
+                             "payload", 7);
+
+    status = js_PublishMsgAsync(js, &m, NULL);
+
+    if (status == NATS_OK)
+        std::cout << "message ok\n";
+
+    // 5. публикуем
+    // status = natsConnection_PublishString(nc, "test.test", "test_payload");
+    // std::cout << "Publish status = " << natsStatus_GetText(status) << std::endl;
+    //js_PublishAsyncComplete(js, 5000);
+    // 6. чистим
+    jsPubOptions opt = {0};
+    opt.MaxWait = 3000;          // максимум 3 сек
+    js_PublishAsyncComplete(js, &opt);
+
     jsCtx_Destroy(js);
     natsConnection_Destroy(nc);
     natsOptions_Destroy(opts);
     nats_Close();
-    return 0; 
+    return 0;
 }

@@ -7,7 +7,7 @@ async def main():
 
     js = nc.jetstream()
 
-    psub = await js.pull_subscribe("events.test", durable="my_consumer")
+    psub = await js.pull_subscribe("event.*", durable="my_consumer")
     print("Ожидание сообщение...")
 
     while True:
