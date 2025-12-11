@@ -1,47 +1,57 @@
-#include <iostream>
-#include <cstring>
 #include <nats.h>
+#include <iostream>
 
-void checkStatus(natsStatus s, const char* msg)
+class NatsProduser
 {
-    if (s != NATS_OK) {
-        std::cerr << "Ошибка [" << msg << "]: "
-                  << natsStatus_GetText(s) << std::endl;
-        exit(1);
+public:
+    void connect();
+    void initContext();
+    void sendMessage(const std::string& msg);
+};
+
+void
+check_status(natsStatus status, const char* msg)
+{
+    if (status != NATS_OK)
+    {
+        std::cerr << "Error [ " << msg << "]: "
+                  << natsStatus_GetText(status) << '\n';
+
+        // jsCtx_Destroy(js);
+        // natsConnection_Destroy(nc);
+        // natsOptions_Destroy(opts);
+        nats_Close();
+        std::exit(1);
     }
 }
 
-int main()
-{
-    natsConnection* nc = nullptr;
-    jsCtx* js          = nullptr;
-    jsPubOptions pubOpts{};
-    jsPubAck* pa       = nullptr;
-    natsStatus s;
+int
+main() {
+    const char* url = "nats://@localhost:4222";
+    natsStatus status;
+    natsOptions* opts = NULL;
+    natsConnection* nc = NULL;
+    jsCtx* js = NULL;
 
-    std::cout << "Подключение к NATS...\n";
-    s = natsConnection_ConnectTo(&nc, "nats://service_a:password_a@localhost:4222");
-    checkStatus(s, "Connect");
+    natsOptions_Create(&opts);
+    natsOptions_SetURL(opts, url);
+    natsOptions_SetUserInfo(opts, "service_a", "password_a");
 
-    std::cout << "Получаем JetStream контекст...\n";
-    s = natsConnection_JetStream(&js, nc, nullptr);   // 1-ым идёт **jsCtx**
-    checkStatus(s, "JetStream");
+    status = natsConnection_Connect(&nc, opts);
+    check_status(status, "Connect to server");
+    std::cout << "Connect to " << url << " success." << std::endl;
+    
+    status = natsConnection_JetStream(&js, nc, NULL);
+    check_status(status, "Init JetStream");
+    std::cout << "JetStream init success." << std::endl;
 
-    const char* subject = "updates.s1";
-    const char* data    = "Hello from C++!";
-
-    s = jsPubOptions_Init(&pubOpts);
-    checkStatus(s, "InitPubOpts");
-
-    std::cout << "Публикуем...\n";
-    s = js_Publish(&pa, js, subject, data, (int)std::strlen(data),
-                   &pubOpts, nullptr);   // 1-ым идёт **jsPubAck**
-    checkStatus(s, "Publish");
-
-    std::cout << "Сообщение отправлено! Seq: " << pa->Sequence << '\n';
-
-    jsPubAck_Destroy(pa);
+    // publish
+    status = natsConnection_PublishString(nc, "update.test", "test_payload");
+    std::cout << "Status = " << natsStatus_GetText(status) << std::endl;
+    // destroy
     jsCtx_Destroy(js);
     natsConnection_Destroy(nc);
-    return 0;
+    natsOptions_Destroy(opts);
+    nats_Close();
+    return 0; 
 }

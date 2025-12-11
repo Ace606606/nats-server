@@ -1,4 +1,4 @@
-# Install script for directory: /home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c
+# Install script for directory: /home/gryakin/workdir/my/git/nats/cpp_client/nats.c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,23 +37,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/libnats.pc")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/libnats.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/cmake_install.cmake")
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/examples/cmake_install.cmake")
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/examples/getstarted/cmake_install.cmake")
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/test/cmake_install.cmake")
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/test/dylib/cmake_install.cmake")
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/test/check_cpp/cmake_install.cmake")
+  include("/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/cmake_install.cmake")
+  include("/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/examples/cmake_install.cmake")
+  include("/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/examples/getstarted/cmake_install.cmake")
+  include("/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/test/cmake_install.cmake")
+  include("/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/test/dylib/cmake_install.cmake")
+  include("/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/test/check_cpp/cmake_install.cmake")
 
 endif()
 

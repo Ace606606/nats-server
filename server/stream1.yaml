@@ -1,0 +1,14 @@
+# nats stream add --config=stream.yaml
+
+name: EVENTS
+description: "Test Nats"
+subjects:
+  - "events.*"
+  - "test.*"
+retention: limits
+max_msgs: -1
+max_bytes: 10GB
+max_age: 120h
+storage: file
+discard: old
+compression: true

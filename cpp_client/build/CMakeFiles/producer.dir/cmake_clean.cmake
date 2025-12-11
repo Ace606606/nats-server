@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/producer.dir/src/producer.cpp.o"
-  "CMakeFiles/producer.dir/src/producer.cpp.o.d"
   "producer"
   "producer.pdb"
 )

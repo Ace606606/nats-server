@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/producer.dir/src/producer.cpp.o -o producer  lib/libnats_static.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so 
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/producer.dir/src/producer.cpp.o  -o producer -Wl,-rpath,/home/gryakin/.local/lib lib/libnats_static.a /home/gryakin/.local/lib/libssl.so /home/gryakin/.local/lib/libcrypto.so -lpthread 

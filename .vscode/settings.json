@@ -98,7 +98,7 @@
     "cmake.loggingLevel": "info",
     // Makefiles, Ninja, Visual Studio
     "cmake.generator": "Unix Makefiles",
-    "cmake.buildDirectory": "${workspaceFolder}/build-debug",
+    "cmake.buildDirectory": "${workspaceFolder}/cpp_client/build",
     "cmake.configureArgs": [
         "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
         "-DCMAKE_BUILD_TYPE=Debug"
@@ -107,7 +107,7 @@
         "-j3"
     ],
     "cmake.sourceDirectory": "/home/ace/workdir/Project_cpp/nats-server/nats.c",
-    "C_Cpp.default.compileCommands": "${workspaceFolder}/build-debug/compile_commands.json",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/cpp_client/build/compile_commands.json",
     // ============================
     //  ПРОЧИЕ ПАРАМЕТРЫ
     // ============================

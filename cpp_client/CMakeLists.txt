@@ -10,4 +10,5 @@ add_subdirectory(nats.c)
 add_executable(producer src/producer.cpp)
 target_include_directories(producer PRIVATE
                            ${CMAKE_CURRENT_SOURCE_DIR}/nats.c/src)
-target_link_libraries(producer PRIVATE nats_static)
+target_link_libraries(producer PRIVATE nats_static pthread rt)
+

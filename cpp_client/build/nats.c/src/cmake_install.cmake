@@ -1,4 +1,4 @@
-# Install script for directory: /home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src
+# Install script for directory: /home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,15 +37,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.13.0"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.13"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.12.0"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.12"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -55,15 +50,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/lib/libnats.so.3.13.0"
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/lib/libnats.so.3.13"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/build/lib/libnats.so.3.12.0"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/build/lib/libnats.so.3.12"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.13.0"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.13"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.12.0"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so.3.12"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
+      file(RPATH_CHANGE
+           FILE "${file}"
+           OLD_RPATH "/home/gryakin/.local/lib:"
+           NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
@@ -71,88 +70,92 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   endforeach()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/lib/libnats.so")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/nats.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake")
-    file(DIFFERENT _cmake_export_file_changed FILES
-         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake"
-         "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/Export/036feb68eb41030ca8d492914a455bf9/cnats-config.cmake")
-    if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config-*.cmake")
-      if(_cmake_old_config_files)
-        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
-        unset(_cmake_old_config_files_text)
-        file(REMOVE ${_cmake_old_config_files})
-      endif()
-      unset(_cmake_old_config_files)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/lib/libnats.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so"
+         OLD_RPATH "/home/gryakin/.local/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnats.so")
     endif()
-    unset(_cmake_export_file_changed)
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/Export/036feb68eb41030ca8d492914a455bf9/cnats-config.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/Export/036feb68eb41030ca8d492914a455bf9/cnats-config-release.cmake")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/cnats-config-version.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/lib/libnats_static.a")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake")
-    file(DIFFERENT _cmake_export_file_changed FILES
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake"
-         "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/Export/036feb68eb41030ca8d492914a455bf9/cnats-config.cmake")
-    if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config-*.cmake")
-      if(_cmake_old_config_files)
-        string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
-        unset(_cmake_old_config_files_text)
-        file(REMOVE ${_cmake_old_config_files})
+         "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/CMakeFiles/Export/lib/cmake/cnats/cnats-config.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
       endif()
-      unset(_cmake_old_config_files)
     endif()
-    unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/Export/036feb68eb41030ca8d492914a455bf9/cnats-config.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/src/CMakeFiles/Export/036feb68eb41030ca8d492914a455bf9/cnats-config-release.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/CMakeFiles/Export/lib/cmake/cnats/cnats-config.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/CMakeFiles/Export/lib/cmake/cnats/cnats-config-release.cmake")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/build/nats.c/cnats-config-version.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/cnats-config-version.cmake")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "nats.h" FILES "/home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src/deprnats.h")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/lib/libnats_static.a")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake")
+    file(DIFFERENT EXPORT_FILE_CHANGED FILES
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake"
+         "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/CMakeFiles/Export/lib/cmake/cnats/cnats-config.cmake")
+    if(EXPORT_FILE_CHANGED)
+      file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config-*.cmake")
+      if(OLD_CONFIG_FILES)
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats/cnats-config.cmake\" will be replaced.  Removing files [${OLD_CONFIG_FILES}].")
+        file(REMOVE ${OLD_CONFIG_FILES})
+      endif()
+    endif()
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/CMakeFiles/Export/lib/cmake/cnats/cnats-config.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/src/CMakeFiles/Export/lib/cmake/cnats/cnats-config-release.cmake")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cnats" TYPE FILE FILES "/home/gryakin/workdir/my/git/nats/cpp_client/build/nats.c/cnats-config-version.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "nats.h" FILES "/home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src/deprnats.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nats" TYPE FILE FILES
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src/nats.h"
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src/status.h"
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src/version.h"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src/nats.h"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src/status.h"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src/version.h"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nats/adapters" TYPE FILE FILES
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src/adapters/libevent.h"
-    "/home/ace/workdir/Project_cpp/nats-server/cpp_client/nats.c/src/adapters/libuv.h"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src/adapters/libevent.h"
+    "/home/gryakin/workdir/my/git/nats/cpp_client/nats.c/src/adapters/libuv.h"
     )
 endif()
 

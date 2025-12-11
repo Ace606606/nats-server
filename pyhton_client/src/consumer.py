@@ -7,13 +7,7 @@ async def main():
 
     js = nc.jetstream()
 
-    try:
-        await js.add_stream(name="STREAM", subjects=["updates.*"])
-        print("Stream 'STREAM' создан или уже существует.")
-    except Exception as e:
-        print(f"Ошибка при создание стрима: {e}")
-
-    psub = await js.pull_subscribe("updates.s1", durable="my_consumer")
+    psub = await js.pull_subscribe("events.test", durable="my_consumer")
     print("Ожидание сообщение...")
 
     while True:
