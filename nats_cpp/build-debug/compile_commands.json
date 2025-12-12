@@ -1,0 +1,457 @@
+[
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug",
+  "command": "/usr/bin/c++  -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/CMAKE_CURRENT_SOURCE_DIR/src/nats.c/src -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src -O3 -DNDEBUG -o CMakeFiles/producer.dir/src/producer.cpp.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/src/producer.cpp",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/src/producer.cpp"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/asynccb.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/asynccb.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/asynccb.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/buf.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/buf.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/buf.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/comsock.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/comsock.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/comsock.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/conn.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/conn.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/conn.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/crypto.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/crypto.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/crypto.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/dispatch.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/dispatch.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/dispatch.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/hash.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/hash.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/hash.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/js.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/js.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/js.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/jsm.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/jsm.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/jsm.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/kv.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/kv.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/kv.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/micro.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/micro_client.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_client.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_client.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/micro_endpoint.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_endpoint.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_endpoint.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/micro_error.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_error.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_error.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/micro_monitoring.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_monitoring.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_monitoring.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/micro_request.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_request.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_request.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/msg.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/msg.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/msg.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/nats.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nats.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nats.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/natstime.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/natstime.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/natstime.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/nkeys.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nkeys.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nkeys.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/nuid.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nuid.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nuid.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/object.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/object.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/object.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/opts.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/opts.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/opts.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/parser.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/parser.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/parser.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/pub.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/pub.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/pub.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/srvpool.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/srvpool.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/srvpool.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/stats.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/stats.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/stats.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/status.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/status.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/status.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/sub.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/sub.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/sub.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/timer.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/timer.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/timer.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/url.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/url.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/url.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/util.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/util.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/util.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib_async_cb.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_async_cb.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_async_cb.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib_dispatch_pool.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_dispatch_pool.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_dispatch_pool.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib_gc.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_gc.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_gc.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib_last_error.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_last_error.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_last_error.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib_ssl.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_ssl.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_ssl.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/glib/glib_timer.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_timer.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_timer.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/unix/cond.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/cond.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/cond.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/unix/mutex.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/mutex.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/mutex.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/unix/sock.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/sock.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/sock.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -DNATS_STATIC -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nats_static.dir/unix/thread.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/thread.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/thread.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/asynccb.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/asynccb.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/asynccb.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/buf.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/buf.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/buf.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/comsock.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/comsock.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/comsock.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/conn.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/conn.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/conn.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/crypto.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/crypto.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/crypto.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/dispatch.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/dispatch.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/dispatch.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/hash.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/hash.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/hash.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/js.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/js.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/js.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/jsm.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/jsm.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/jsm.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/kv.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/kv.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/kv.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/micro.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/micro_client.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_client.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_client.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/micro_endpoint.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_endpoint.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_endpoint.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/micro_error.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_error.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_error.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/micro_monitoring.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_monitoring.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_monitoring.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/micro_request.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_request.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/micro_request.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/msg.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/msg.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/msg.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/nats.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nats.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nats.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/natstime.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/natstime.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/natstime.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/nkeys.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nkeys.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nkeys.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/nuid.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nuid.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/nuid.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/object.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/object.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/object.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/opts.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/opts.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/opts.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/parser.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/parser.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/parser.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/pub.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/pub.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/pub.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/srvpool.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/srvpool.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/srvpool.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/stats.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/stats.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/stats.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/status.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/status.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/status.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/sub.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/sub.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/sub.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/timer.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/timer.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/timer.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/url.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/url.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/url.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/util.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/util.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/util.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib_async_cb.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_async_cb.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_async_cb.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib_dispatch_pool.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_dispatch_pool.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_dispatch_pool.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib_gc.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_gc.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_gc.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib_last_error.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_last_error.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_last_error.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib_ssl.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_ssl.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_ssl.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/glib/glib_timer.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_timer.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib/glib_timer.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/unix/cond.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/cond.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/cond.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/unix/mutex.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/mutex.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/mutex.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/unix/sock.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/sock.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/sock.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/src",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_EXPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/include -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/glib -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -fPIC -std=gnu99 -o CMakeFiles/nats.dir/unix/thread.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/thread.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src/unix/thread.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/test",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/testsuite.dir/test.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/test.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/test.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/test",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/testsuite.dir/bench_sub_async.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/bench_sub_async.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/bench_sub_async.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/test/dylib",
+  "command": "/usr/bin/cc -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -Dnats_IMPORTS -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src  -std=c99 -pedantic -fstrict-aliasing -Wall -W -Wno-unused-parameter -Wno-unused-function -Wstrict-prototypes -Wwrite-strings -O3 -DNDEBUG -std=gnu99 -o CMakeFiles/nonats.dir/nonats.c.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/dylib/nonats.c",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/dylib/nonats.c"
+},
+{
+  "directory": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/build-debug/lib/nats.c/test/check_cpp",
+  "command": "/usr/bin/c++ -DLINUX -DNATS_FORCE_HOST_VERIFICATION -DNATS_HAS_TLS -D_GNU_SOURCE -D_REENTRANT -I/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/src -O3 -DNDEBUG -o CMakeFiles/check_cpp.dir/check_cpp.cpp.o -c /home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/check_cpp/check_cpp.cpp",
+  "file": "/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/lib/nats.c/test/check_cpp/check_cpp.cpp"
+}
+]

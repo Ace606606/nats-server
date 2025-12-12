@@ -1,0 +1,122 @@
+{
+    /// ======================
+    //       Терминал
+    // ======================
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    /// ======================
+    //   EDITOR SETTINGS
+    // ======================
+    "editor.formatOnSave": false,
+    "files.encoding": "utf8",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.cursorSurroundingLines": 3,
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": true,
+    "editor.minimap.scale": 1,
+    "editor.minimap.size": "fit",
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.renderCharacters": true,
+    // ============================
+    //  НАСТРОЙКИ ФОРМАТТЕРОВ ПО ЯЗЫКАМ
+    // ============================
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": false
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": false,
+    },
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 120 }",
+    "[shellscript]": {
+        "editor.defaultFormatter": "mkhl.shfmt",
+        "editor.formatOnSave": false
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": false
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": false
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.formatOnSave": false
+    },
+    // --- C/C++ подсказки ---
+    "C_Cpp.errorSquiggles": "enabled",
+    // ======== Code Analysis ========
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.clangTidy.useBuildPath": true,
+    // Тип движка анализа кода:
+    // "Default" — стандартный, стабильный вариант;
+    // "Tag Parser" — упрощённый, работает быстрее, но без "умного" анализа.
+    "C_Cpp.intelliSenseEngine": "default",
+    // ==============================
+    //  ИНТЕГРАЦИЯ С CMAKE TOOLS
+    // ==============================
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true,
+    "cmake.configureOnEdit": true,
+    "cmake.buildBeforeRun": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.loggingLevel": "info",
+    // Makefiles, Ninja, Visual Studio
+    "cmake.generator": "Unix Makefiles",
+    "cmake.buildDirectory": "${workspaceFolder}/build-debug",
+    "cmake.configureArgs": [
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+        "-DCMAKE_BUILD_TYPE=Debug"
+    ],
+    "cmake.buildArgs": [
+        "-j3"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build-debug/compile_commands.json",
+    // ============================
+    //          PYTHON
+    // ============================
+    "python.analysis.typeCheckingMode": "basic",
+    // ============================
+    //  ПРОЧИЕ ПАРАМЕТРЫ
+    // ============================
+    "editor.rulers": [
+        120
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    // ============================
+    //  Code-runner
+    // ============================
+    "code-runner.executorMap": {
+        "cpp": "cd $workspaceFolder/build-debug && make -j3",
+        "c": "cd $workspaceFolder/build-debug && make -j3",
+        "cmake": "cmake -S $workspaceFolder -B $workspaceFolder/build-debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Debug",
+        "python": "python3 -u",
+        "bash": "bash"
+    },
+    // ==================================
+    //  НАСТРОЙКА SPELL CHECKER
+    // ==================================
+    "cSpell.language": "en,ru",
+    "cSpell.enabledFileTypes": {
+        "markdown": true,
+        "plaintext": true,
+        "shellscript": true,
+        "cpp": true,
+        "c": true,
+        "json": true
+    },
+    "cSpell.words": [
+        "DCMAKE",
+        "gruntfuggly",
+        "mkhl",
+        "produser"
+    ]
+}

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/nats.c/src/nats.h
+stdlib.h
+-
+stdint.h
+-
+stdbool.h
+-
+inttypes.h
+-
+stdio.h
+-
+status.h
+../lib/nats.c/src/status.h
+version.h
+../lib/nats.c/src/version.h
+winsock2.h
+-
+
+../lib/nats.c/src/status.h
+
+../lib/nats.c/src/version.h
+
+/home/g_ryakin/workdir/source_code/TestCode/nats/nats_cpp/src/producer.cpp
+iostream
+-
+nats.h
+-
+string
+-
+chrono
+-
+thread
+-
+
