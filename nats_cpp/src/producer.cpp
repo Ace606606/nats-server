@@ -4,9 +4,18 @@
 #include <chrono>
 #include <thread>
 
+static volatile bool drained = false;
+
+
 const char* url = "nats://@localhost:4222";
 const char* subject = "test.subject";
 const char* reply = NULL;
+
+void
+onClosed(natsConnection *, void *)
+{
+    drained = true;
+}
 
 void
 check_status(natsStatus status, const char* msg)
@@ -30,6 +39,7 @@ init_options()
     natsOptions* opts = NULL;
     natsOptions_Create(&opts);
     natsOptions_SetURL(opts, url);
+    natsOptions_SetClosedCB(opts, onClosed, nullptr);
     return opts;
 }
 
@@ -39,8 +49,6 @@ publish_message(natsConnection* nc, const std::string& message)
     std::cout << "Run publish message" << std::endl;
     natsStatus status = natsConnection_PublishString(nc, subject, message.c_str());
     check_status(status, "Publish message");
-
-    std::cout << "Published: " << message << std::endl;
 }
 
 int
@@ -65,7 +73,17 @@ main()
     publish_message(nc, "Goodbye from C++!");
 
 
-    natsConnection_Drain(nc);
+    status = natsConnection_DrainTimeout(nc, 5000);
+    if (status !=  NATS_OK)
+    {
+        std::cerr << "Drain error\n";
+    }
+
+    while (!drained)
+    {
+        std::this_thread::sleep_for(std::chrono::milliseconds(50));
+    }
+    
     natsConnection_Destroy(nc);
     natsOptions_Destroy(opts);
     nats_Close();
